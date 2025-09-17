@@ -5,6 +5,6 @@ on:
 
 jobs:
   call-workflow-1-in-local-repo:
-    uses: XX9-YE-SONG/acore-cicd-templates/.github/workflows/acore-workflow@main
+    uses: XX9-YE-SONG/acore-cicd-templates/.github/workflows/acore-workflow.yml@main
     with:
       app-name: sample
