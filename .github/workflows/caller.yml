@@ -1,0 +1,10 @@
+name: CI
+on: 
+  push:
+  workflow_dispatch:
+
+jobs:
+  call-workflow-1-in-local-repo:
+    uses: XX9-YE-SONG/acore-cicd-templates/.github/workflows/acore-workflow@main
+    with:
+      app-name: sample
