@@ -1,4 +1,4 @@
-name: CI
+name: A-core APP CI/CD
 on: 
   push:
   pull_request:
@@ -9,7 +9,7 @@ on:
         required: true
 
 jobs:
-  call-workflow-1-in-local-repo:
+  call:
     uses: XX9-YE-SONG/acore-cicd-templates/.github/workflows/acore-workflow.yml@main
     with:
       app-name: sample
