@@ -1,7 +1,13 @@
 name: A-core APP CI/CD
 on: 
   push:
+    branches-ignore: 
+      - 'doc/*'
+      - 'feature/*'
   pull_request:
+    branches-ignore: 
+      - 'doc/*'
+      - 'feature/*'  
   workflow_dispatch:
     inputs:
       version-type:
