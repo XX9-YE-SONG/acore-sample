@@ -7,6 +7,12 @@ on:
       version-type:
         description: 'Major or minor or patch?'     
         required: true
+        type: choice
+        options:
+          - 'major'
+          - 'minor'
+          - 'patch'
+          - 'not main branch'
 
 jobs:
   call:
