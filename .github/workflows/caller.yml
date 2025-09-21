@@ -2,16 +2,16 @@ name: A-core APP CI/CD
 on: 
   push:
     branches-ignore: 
-      - 'doc/*'
-      - 'feature/*'
+      - 'doc/**'
+      - 'work/**'
   pull_request:
     branches-ignore: 
-      - 'doc/*'
-      - 'feature/*'  
+      - 'doc/**'
+      - 'work/**'  
   workflow_dispatch:
     inputs:
       version-type:
-        description: 'Major or minor or patch?'     
+        description: 'Which bump fits?'     
         required: true
         type: choice
         options:
