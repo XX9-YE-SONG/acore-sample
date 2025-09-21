@@ -18,7 +18,7 @@ on:
           - 'major'
           - 'minor'
           - 'patch'
-          - 'not main branch'
+          - 'none'
 
 jobs:
   call:
