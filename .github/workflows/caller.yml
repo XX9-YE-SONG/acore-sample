@@ -10,7 +10,7 @@ on:
       - 'work/**'  
   workflow_dispatch:
     inputs:
-      version-type:
+      bump-type:
         description: 'Which bump fits?'     
         required: true
         type: choice
