@@ -25,4 +25,4 @@ jobs:
     uses: XX9-YE-SONG/acore-cicd-templates/.github/workflows/acore-workflow.yml@main
     with:
       app-name: sample
-      version-type: ${{ inputs.version-type }}
+      bump-type: ${{ inputs.bump-type }}
