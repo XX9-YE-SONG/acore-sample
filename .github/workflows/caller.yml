@@ -22,7 +22,7 @@ on:
 
 jobs:
   call:
-    uses: XX9-YE-SONG/acore-cicd-templates/.github/workflows/acore-workflow.yml@main
+    uses: XX9-YE-SONG/acore-cicd-templates/.github/workflows/acore-app-workflow.yml@main
     with:
       app-name: sample
       bump-type: ${{ inputs.bump-type }}
